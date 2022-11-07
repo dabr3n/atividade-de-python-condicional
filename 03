@@ -1,0 +1,25 @@
+//3) Escreva um algoritmo para determinar se um dado número N (recebido através do
+teclado/ informado pelo usuário) é POSITIVO, NEGATIVO ou NULO.
+
+
+
+n = int(input("Insira um valor: "))
+
+if (n>0):
+
+    print("É um valor positivo") 
+
+
+elif (0 == n):
+
+    print("É um valor nulo")
+
+
+
+
+
+else:
+
+  print("É um valor negativo")
+
+
