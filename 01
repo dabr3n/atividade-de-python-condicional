@@ -1,0 +1,13 @@
+// 1) Escreva um algoritmo que leia um número informado pelo usuário e o imprima caso ele
+seja maior que 20.
+
+
+mq = int(input("Insira um algoritmo: "))
+
+if (mq > 20):
+
+  print("Seu algoritmo foi: ", mq) 
+
+else: 
+
+  print("Seu algoritmo é menor que 20")
