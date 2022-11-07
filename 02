@@ -1,0 +1,18 @@
+//2) Construa um algoritmo que leia dois valores numéricos inteiros (informados pelo usuário)
+e efetue a adição; caso o resultado seja maior que 10, apresentá-lo da seguinte forma:
+“A somas do números foi maior que dez e é: “.
+
+
+
+v1 = int(input("Insira um valor: "))
+v2 = int(input("Insira um segundo valor: "))
+
+s = (v1+v2)
+
+if (s>10):
+
+    print("A somas do número foi maior que dez e é: ", s)
+
+else: 
+
+    print("A somas do número foi menor que dez")
