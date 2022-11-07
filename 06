@@ -1,0 +1,21 @@
+// 6) Escreva um algoritmo para determinar se um número A é divisível por um outro número
+B. Esses valores devem ser fornecidos pelo usuário.
+
+
+
+
+d1 = int(input("Insira um número: "))
+d2 = int(input("Insira um segundo valor: "))
+d3 = d1, d2
+
+if (d1==d2):
+
+  print("É divisivel")
+
+elif (d1%d2==0):
+
+    print("É divisivel")
+
+else:
+
+    print("Não é divisivel")
