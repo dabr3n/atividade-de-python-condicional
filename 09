@@ -1,0 +1,21 @@
+// 9) Dados três valores A, B e C, construa um algoritmo, que imprima os valores de forma
+ascendente (do menor para o maior).
+
+
+a = int(input("Insira um valor a: "))
+b = int(input("Insira um valor b: "))
+c = int(input("Insira um valor c: "))
+
+if (a<b) and (a<c) and (c>b):
+
+    print(a, b, c)
+
+elif (a>b) and (a>c) and (c>b): 
+
+  print(b, c, a)
+
+if (b>a) and (b>c) and (c>a):
+
+    print(a, c, b)
+
+  
